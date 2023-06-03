@@ -29,3 +29,7 @@ print(great + name + profession + str(27)+ ' years old.')
 # Elegant Way
 print('Elegant Way: ', f'{great} {name} {profession} {age} years old.')
 
+# TODO: Lists
+colors = ['Red', 'Blue', 'Yellow', 'White']
+
+print(colors)
