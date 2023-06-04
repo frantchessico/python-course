@@ -18,6 +18,7 @@ print(13- 7)
 print(30/3)
 print(30%3)
 
+
 #TODO: String Concatenation
 
 name = 'I am Francisco Inoque'
@@ -33,3 +34,29 @@ print('Elegant Way: ', f'{great} {name} {profession} {age} years old.')
 colors = ['Red', 'Blue', 'Yellow', 'White']
 
 print(colors)
+
+
+#TODO: Complex Type:
+z = 1j  
+
+print(type(z))
+
+#TODO: Slicing Strings
+
+b = "Hello, World!"
+print(b[4:5])
+
+#TODO: Modify Strings
+
+a = "Hello, World!"
+print(a.upper())
+
+b = "Hello, World!"
+print(a.lower())
+
+#TODO: String Concatenation
+
+c = "Hello"
+d = "World"
+e = c + d
+print(e)
