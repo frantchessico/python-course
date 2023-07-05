@@ -60,3 +60,18 @@ c = "Hello"
 d = "World"
 e = c + d
 print(e)
+
+#TODO: Boolean
+
+print(10 > 9) # Ttrue
+print(10 == 9) # False
+print(10 < 9) # False
+
+
+a = 200
+b = 33
+c = b > a
+if c != False:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")

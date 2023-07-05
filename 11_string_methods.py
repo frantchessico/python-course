@@ -110,3 +110,57 @@ txt = "Mi casa, su casa..."
 x = txt.rfind("casa")
 
 print(x)
+
+#TODO: RSPLIT: Returns a right trim version of the string
+txt = "     banana     "
+
+x = txt.rstrip()
+
+print("of all fruits", x, "is my favorite")
+
+#TODO: SPLIT: Splits the string at the specified separator, and returns a list
+txt = "welcome to the jungle"
+
+x = txt.split()
+
+print(x)
+
+
+txt = "hello, my name is Peter, I am 26 years old"
+
+x = txt.split(", ")
+
+print(x)
+
+
+txt = "apple#banana#cherry#orange"
+
+x = txt.split("#")
+
+print(x)
+
+
+txt = "apple#banana#cherry#orange"
+
+# setting the maxsplit parameter to 1, will return a list with 2 elements!
+x = txt.split("#", 1)
+
+print(x)
+
+#TODO: TRANSLATE: Returns a translated string
+
+mydict = {83:  80}
+txt = "Olá Francisco"
+print(txt.translate(mydict))
+
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+for list in list1:
+    list2.append(list)
+
+print(list2)
